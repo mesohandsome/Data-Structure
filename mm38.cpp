@@ -8,6 +8,7 @@ int main()
 	if(a+c>b) flag++;
 	if(b+c>a) flag++;
 	
+	/* if all the condition sets, flag will be 3  */
 	if(flag==3) printf("fit\n");
 	else printf("unfit\n");
 	return 0;
