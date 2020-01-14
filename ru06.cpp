@@ -2,6 +2,7 @@
 
 int recursive(int n)
 {
+	/* using the given recursive f(n) to calculate */
 	if(n==0 || n==1) return n+1;
 	else return recursive(n-1)+recursive(n/2);
 }
