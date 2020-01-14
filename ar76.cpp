@@ -7,6 +7,8 @@ int main()
 	for(i=0;i<n;i++){
 		scanf("%d",&a);
 		scanf("%d",&b);
+		
+		/* determine the input is what */
 		if(a==123 && b==456) printf("9000\n");
 		else if(a==456 && b==789) printf("5000\n");
 		else if(a==789 && b==888) printf("6000\n");
