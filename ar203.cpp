@@ -6,6 +6,8 @@ int main()
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
 		scanf("%d",&star);
+		
+		/* determie the input is which one */
 		if(star==1) printf("1 Mercury\n");
 		else if(star==2) printf("2 Venus\n");
 		else if(star==3) printf("3 Earth\n");
