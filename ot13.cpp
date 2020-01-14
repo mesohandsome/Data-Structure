@@ -6,6 +6,8 @@ int main()
 	int ans;
 	scanf("%d %d",&x1,&y1);
 	scanf("%d %d",&x2,&y2);
+	
+	/* the slope = (y2-y1)/(x2-x1) */
 	ans=(y2-y1)/(x2-x1);
 	printf("%d\n",ans);
 	return 0;
