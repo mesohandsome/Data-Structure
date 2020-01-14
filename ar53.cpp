@@ -10,11 +10,17 @@ int main()
 	int i, n;
 	scanf("%d",&n);
 	int num[n];
+	
+	/* input all the numbers */
 	for(i=0;i<n;i++){
 		scanf("%d",&num[i]);
 	}
+	
+	/* using qsort() to sort the array */
 	qsort(num,n,sizeof(int),cmp);
-	for(i=0;i<n;i++){
+	
+	/* output */
+	for(i=0;i<n;i++)
 		printf("%d\n",num[i]);
 	}
 	return 0;
